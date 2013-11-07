@@ -4,6 +4,7 @@ class CreateWidgets < ActiveRecord::Migration
     create_table(:widgets) do |t|
       t.string :color
       t.integer :price
+      t.string :name
       t.timestamps
     end
   end
